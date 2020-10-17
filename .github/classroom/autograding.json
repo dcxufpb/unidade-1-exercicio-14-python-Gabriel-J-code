@@ -2,7 +2,7 @@
   "tests": [
     {
       "name": "Teste",
-      "setup": "sudo -H pip3 install pytest",
+      "setup": "sudo pip3 install -U setuptools;sudo -H pip3 install pytest",
       "run": "pytest",
       "input": "",
       "output": "",
